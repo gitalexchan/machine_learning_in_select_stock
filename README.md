@@ -1,0 +1,2 @@
+# machine_learning_in_select_stock
+第一份工作，给老板写一个选股的模型
