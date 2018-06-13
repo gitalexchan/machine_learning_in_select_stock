@@ -19,7 +19,8 @@
 ##### delete all columns except df['profit_rate']
 ##### remove 2015/06/01 - 2015/12/31 data, random select 100 days and calculate the mean values.
 ##### add the mean values named ['profit_rate'] to the end of related code
-     
+
+
 #### deeplearning of datasets
    Code in the fold for review.
      
