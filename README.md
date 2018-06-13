@@ -12,15 +12,15 @@
 #### tushare安装
 #### 获得2016年全年的每只股票基本面数据
 #### 持有期半年股票数据收益率计算并分类（4类）
-     获得2015/06/01 - 2016/12/31的每只股票日线前复权股市数据
-     add a column named['profit_half_year_ago'] at the end of the dataframe, data comes from the 2015/06/01 of '开盘价'
-     add a column named['profit_rate'] at the end of the dataframe
-     df['profit_rate'] = (df['收盘价'] - df['profit_half_year_ago'])/df['profit_half_year_ago'])
-     delete all columns except df['profit_rate']
-     remove 2015/06/01 - 2015/12/31 data, random select 100 days and calculate the mean values.
-     add the mean values named ['profit_rate'] to the end of related code
+   获得2015/06/01 - 2016/12/31的每只股票日线前复权股市数据
+   add a column named['profit_half_year_ago'] at the end of the dataframe, data comes from the 2015/06/01 of '开盘价'
+   add a column named['profit_rate'] at the end of the dataframe
+   df['profit_rate'] = (df['收盘价'] - df['profit_half_year_ago'])/df['profit_half_year_ago'])
+   delete all columns except df['profit_rate']
+   remove 2015/06/01 - 2015/12/31 data, random select 100 days and calculate the mean values.
+   add the mean values named ['profit_rate'] to the end of related code
      
 #### deeplearning of datasets
-     Code in the fold for review.
+   Code in the fold for review.
      
 
